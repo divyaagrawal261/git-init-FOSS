@@ -4,30 +4,31 @@
   // export let i = 0
   export let r
 
-  const l2p = (l) => {
+  const l2p = (l) => {  
     let components = l.split('/')
     return components[components.length - 1]
   }
-  r.rollNumber = r.rollNumber.toUpperCase();
+  let firstKey = Object.keys(r).find(key => key !== 'profile');
+  r[firstKey].rollNo = r[firstKey].rollNo.toUpperCase();
 </script>
 
-<div class="tile" class:top={r.rank === 1}>
+<div class="tile" class:top={r[firstKey].rank === 1}>
   <div class="left">
     <div class="rank">
-      <h2>#{r.rank}</h2>
+      <h2>#{r[firstKey].rank}</h2>
     </div>
     <div class="profile">
-      <h3>{r.name}</h3>
+      <h3>{r[firstKey].name}</h3>
       <div class="subtitle">
         <img src={`https://avatars.githubusercontent.com/${r.profile}`} class="avatar"  alt={r.profile} />
         <a rel="noopener" href="https://github.com/{r.profile}" target="_blank">{l2p(r.profile)}</a>
         <div class="muted">&bull;</div>
-        <div class="muted">{r.rollNumber}</div>
+        <div class="muted">{r[firstKey].rollNo}</div>
       </div>
     </div>
   </div>
   <div class="score">
-    <h2>Score: {r.score}</h2>
+    <h2>Score: {r[firstKey].score}</h2>
   </div>
 </div>
 

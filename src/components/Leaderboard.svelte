@@ -20,7 +20,7 @@
   }
 
   onMount(() => {
-    fetch("https://git-init-foss-backend.onrender.com")
+    fetch("https://git-init-foss-api-1.onrender.com/leaderboard")
       .then((res) => {
         res
           .json()
@@ -28,14 +28,14 @@
             showLeaderboard = true
             let lb = []
             for (let key in data) {
-              data[key].profile = key
+              let firstKey = Object.keys(data[key])[0];
+              data[key].profile = firstKey
               lb.push(data[key])
             }
             leaderboard.set(lb)
             rankify()
             pstringify()
             searchQueryStore.subscribe((data) => (results = search()))
-            console.log(results)
           })
           .catch((e) => {
             showLeaderboard = false

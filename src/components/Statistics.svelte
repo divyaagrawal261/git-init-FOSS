@@ -4,7 +4,7 @@
 
   import { onMount } from "svelte";
   onMount(() => {
-    fetch("https://git-init-foss-backend.onrender.com/stats").then(
+    fetch("https://git-init-foss-api-1.onrender.com/stats").then(
       (response) => {
         response
           .json()
