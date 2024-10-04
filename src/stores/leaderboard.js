@@ -13,9 +13,7 @@ export const rankify = () => {
   leaderboard.subscribe((lb) => {
     lb.forEach((p, i) => {
       let firstKey = Object.keys(p).find(key => key !== 'profile');
-
       let player = p[firstKey];
-
       player.name = titleCase(player.name);
     });
 
@@ -23,11 +21,11 @@ export const rankify = () => {
       let keyA = Object.keys(a).find(key => key !== 'profile');
       let keyB = Object.keys(b).find(key => key !== 'profile');
 
-      return (b[keyB].name > a[keyA].name ? -1 : 1) ||
+      return (b[keyB].score - a[keyA].score) ||
+             (b[keyB].name > a[keyA].name ? -1 : 1) ||
              (b[keyB].easy - a[keyA].easy) ||
              (b[keyB].medium - a[keyA].medium) ||
-             (b[keyB].hard - a[keyA].hard) ||
-             (b[keyB].score - a[keyA].score);
+             (b[keyB].hard - a[keyA].hard);
     });
 
     lb.forEach((p, i) => {
@@ -41,7 +39,9 @@ export const searchQueryStore = writable("");
 export const pstringify = () => {
   leaderboard.subscribe((lb) => {
     lb.forEach((p) => {
-      p.str = p.name + " " + p.profile + " " + p.score + " " + p.rollNumber + " ";
+      let firstKey = Object.keys(p).find(key => key !== 'profile');
+      let player = p[firstKey];
+      p.str = player.name + " " + p.profile + " " + player.score + " " + player.rollNo + " ";
     }); 
   });
 };
