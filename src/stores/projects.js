@@ -247,6 +247,34 @@ export let projects = [
     "pre": "",
     "maintainers": ["joeyyy09"]
   },
+  {
+    "title": "Movie Mojo",
+    "repo": "https://github.com/believer-99/Movie_Mojo",
+    "stack": [
+      "Dart",
+      "Firebase",
+      "Flutter"
+    ],
+    "desc": "A movie search app curated for all the movie enthusiasts. One can search the movie of his choice, sort them according to their needs and also view more details about their favourite movie. Its a one stop destination for all movie lovers.",
+    "pre": "Android App Development using Flutter.",
+    "maintainers": ["believer-99"]
+  },
+  {
+    "title": "Phalanx API",
+    "repo": "https://github.com/orgs/phalanxAPI/repositories",
+    "stack": [
+      "JavaScript",
+      "TypeScript",
+      "Next",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Documentation"
+    ],
+    "desc": "A framework for API security and management composed of multiple microservices built using NodeJS, NextJS, MongoDB and gRPC.",
+    "pre": "NodeJS, MongoDB, NextJS",
+    "maintainers": ["kshitij-404", "RajVarsani", "22chiragmodh"]
+  }
   // {
   //   title: 'SocialMedia-App',
   //   repo: 'http://github.com/sidjaiswal2003',
