@@ -274,23 +274,23 @@ export let projects = [
     "desc": "A framework for API security and management composed of multiple microservices built using NodeJS, NextJS, MongoDB and gRPC.",
     "pre": "NodeJS, MongoDB, NextJS",
     "maintainers": ["kshitij-404", "RajVarsani", "22chiragmodh"]
-  }
-  // {
-  //   title: 'SocialMedia-App',
-  //   repo: 'http://github.com/sidjaiswal2003',
-  //   stack: [
-  //     'JavaScript',
-  //     ' HTML',
-  //     ' CSS',
-  //     ' ReactJS',
-  //     ' NodeJS',
-  //     ' ExpressJS',
-  //     ' MongoDB'
-  //   ],
-  //   desc: 'Full stack social media website.',
-  //   pre: '',
-  //   maintainers: ['sidjaiswal2003']
-  // },
+  },
+  {
+    title: 'SocialMedia-App',
+    repo: 'https://github.com/sidjaiswal2003/SocialMedia-App',
+    stack: [
+      'JavaScript',
+      ' HTML',
+      ' CSS',
+      ' ReactJS',
+      ' NodeJS',
+      ' ExpressJS',
+      ' MongoDB'
+    ],
+    desc: 'Full stack social media website.',
+    pre: '',
+    maintainers: ['sidjaiswal2003']
+  },
   // {
   //   title: 'GitFest',
   //   repo: 'https://github.com/sohan2410/GitFest',
@@ -299,14 +299,14 @@ export let projects = [
   //   pre: '',
   //   maintainers: ['sohan2410']
   // },
-  // {
-  //   title: 'AASF-API',
-  //   repo: 'https://github.com/sohan2410/aasf-api',
-  //   stack: ['TypeScript', ' NodeJS', ' ExpressJS', ' SQL'],
-  //   desc: 'Backend for AASF App',
-  //   pre: '',
-  //   maintainers: ['sohan2410']
-  // },
+  {
+    title: 'AASF-API',
+    repo: 'https://github.com/sohan2410/aasf-api',
+    stack: ['TypeScript', ' NodeJS', ' ExpressJS', ' SQL'],
+    desc: 'Backend for AASF App',
+    pre: '',
+    maintainers: ['sohan2410']
+  },
   // {
   //   title: 'MediChain',
   //   repo: 'https://sadityakumar9211/medichain-hardhat',
@@ -339,64 +339,64 @@ export let projects = [
   //   pre: '',
   //   maintainers: ['joeyyy09']
   // },
-  // {
-  //   title: 'MediBook',
-  //   repo: 'https://github.com/Ishpreet-Kaur-Bedi/Hospital-Booking-Medibook',
-  //   stack: [
-  //     'JavaScript',
-  //     ' HTML',
-  //     ' CSS',
-  //     ' React',
-  //     ' Node.js',
-  //     ' Express.js',
-  //     ' MongoDB',
-  //     ' Typescript'
-  //   ],
-  //   desc: 'The Hospital Booking Platform is an innovative and user-friendly application that revolutionizes the way patients and doctors connect.  With our platform, patients can easily book appointments with their preferred hospitals and doctors, while doctors can efficiently manage their hospital listings and reservations.',
-  //   pre: 'ReactJS, NextJS, Javascript',
-  //   maintainers: ['Ishpreet-Kaur-bedi']
-  // },
-  // {
-  //   title: 'TomperChat',
-  //   repo: 'https://github.com/varunKT001/tomper-chat',
-  //   stack: ['JavaScript',
-  //   ' React',
-  //   ' Node.js',
-  //   ' Express.js',
-  //   ' MongoDB',],
-  //   desc:
-  //     'A full-fleged whatsapp clone.',
-  //   pre: '',
-  //   maintainers: ['varunKT001']
-  // },
-  // {
-  //   title: 'QuickLy Live Chat App',
-  //   repo: 'https://github.com/HiRoaR2002/Quickly-Backend',
-  //   stack: [
-  //     'JavaScript',
-  //     ' HTML',
-  //     ' CSS',
-  //     ' NodeJS',
-  //     ' ReactJS',
-  //     ' ExpressJS',
-  //     ' MongoDB',
-  //   ],
-  //   desc: 'It is a live chat app like whatsapp, providing many features.',
-  //   pre: '',
-  //   maintainers: ['HiRoaR2002']
-  // },
-  // {
-  //   title: 'Video Social',
-  //   repo: 'https://github.com/sadityakumar9211/travel-site-frontend',
-  //   stack: [
-  //     'JavaScript',
-  //     ' HTML',
-  //     ' CSS',
-  //     ' React',
-  //   ],
-  //   desc: 'This is a basic frontend project for a sample travel site.',
-  //   maintainers: ['sadityakumar9211']
-  // },
+  {
+    title: 'MediBook',
+    repo: 'https://github.com/Ishpreet-Kaur-Bedi/Hospital-Booking-Medibook',
+    stack: [
+      'JavaScript',
+      ' HTML',
+      ' CSS',
+      ' React',
+      ' Node.js',
+      ' Express.js',
+      ' MongoDB',
+      ' Typescript'
+    ],
+    desc: 'The Hospital Booking Platform is an innovative and user-friendly application that revolutionizes the way patients and doctors connect.  With our platform, patients can easily book appointments with their preferred hospitals and doctors, while doctors can efficiently manage their hospital listings and reservations.',
+    pre: 'ReactJS, NextJS, Javascript',
+    maintainers: ['Ishpreet-Kaur-bedi']
+  },
+  {
+    title: 'TomperChat',
+    repo: 'https://github.com/varunKT001/tomper-chat',
+    stack: ['JavaScript',
+    ' React',
+    ' Node.js',
+    ' Express.js',
+    ' MongoDB',],
+    desc:
+      'A full-fleged whatsapp clone.',
+    pre: '',
+    maintainers: ['varunKT001']
+  },
+  {
+    title: 'QuickLy Live Chat App',
+    repo: 'https://github.com/HiRoaR2002/Quickly-Backend',
+    stack: [
+      'JavaScript',
+      ' HTML',
+      ' CSS',
+      ' NodeJS',
+      ' ReactJS',
+      ' ExpressJS',
+      ' MongoDB',
+    ],
+    desc: 'It is a live chat app like whatsapp, providing many features.',
+    pre: '',
+    maintainers: ['HiRoaR2002']
+  },
+  {
+    title: 'Video Social',
+    repo: 'https://github.com/sadityakumar9211/travel-site-frontend',
+    stack: [
+      'JavaScript',
+      ' HTML',
+      ' CSS',
+      ' React',
+    ],
+    desc: 'This is a basic frontend project for a sample travel site.',
+    maintainers: ['sadityakumar9211']
+  },
   // {
   //   title: 'Diversified',
   //   repo: 'https://github.com/Spedrick/GitInit-Foss',
