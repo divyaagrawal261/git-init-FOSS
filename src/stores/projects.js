@@ -397,6 +397,25 @@ export let projects = [
     desc: 'This is a basic frontend project for a sample travel site.',
     maintainers: ['sadityakumar9211']
   },
+  {
+    "title": "Pixel Dust",
+    "repo": "https://github.com/AvijeetJain/pixelDust",
+    "stack": [
+      "JavaScript",
+      "Node.js"
+    ],
+    "desc": "PixelDust is a command-line tool for encrypting and decrypting images using XOR encryption. It supports both encryption and decryption of images with a randomly generated key.",
+    "pre": "",
+    "maintainers": ["AvijeetJain"]
+  },
+  {
+    title:"web-scraper",
+    repo:"https://github.com/AvijeetJain/web_scraper",
+    stack:["Python"],
+    desc:"This web scraping project is designed to extract valuable insights from user reviews on a specific webpage. The target is to collect data related to product reviews, including ratings, textual reviews, reviewer names, dates, review descriptions, and locations (if available).",
+    pre:"basic knowledge of Python",
+    maintainers:["AvijeetJain"]
+  }
   // {
   //   title: 'Diversified',
   //   repo: 'https://github.com/Spedrick/GitInit-Foss',
